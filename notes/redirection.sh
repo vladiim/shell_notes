@@ -1,3 +1,4 @@
+# ! ;
 # redirect the cal's stdout of my birthday to a file
 cal 05 1984 > mybday
 cat mybday

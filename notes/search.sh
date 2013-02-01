@@ -1,3 +1,4 @@
+# ! ;
 grep 'sh$' proglist
 # $ is end of line
 

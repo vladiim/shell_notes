@@ -1,3 +1,5 @@
+# ! ;
+
 cal 1222 1995
 # error
 ^22
@@ -12,3 +14,6 @@ cp !$/somefile
 
 !ca # + tab
 # complete last command starting w/ ca in this case cal...
+
+$?
+# the exit status of prev command, you can see it with echo

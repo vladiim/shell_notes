@@ -1,3 +1,4 @@
+# ! ;
 # sorts output into columns
 # options:
 #	pipe to column
