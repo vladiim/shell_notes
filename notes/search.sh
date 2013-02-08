@@ -16,3 +16,6 @@ ls /bin /usr/bin | grep -v '/bin:$' | grep -v '^$' | sort > proglist
 
 # egrep accepts extended regex, eg - match sh but not .sh
 egrep '(^sh|[^.]sh)$' proglist | column
+
+# search dict words - the dot is a special char to grep
+grep 'ei...*le' /usr/share/dict/words

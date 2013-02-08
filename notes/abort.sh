@@ -1,0 +1,1 @@
+Ctrl-g # aborts the current operation

@@ -17,3 +17,12 @@ cp !$/somefile
 
 $?
 # the exit status of prev command, you can see it with echo
+
+Esc<    # start of command history
+
+Esc>	# end of command history
+
+Ctrl-r  # search backwards for the terms i've typed
+
+Ctrl-s  # search forward for the terms i've typed
+

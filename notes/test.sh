@@ -17,3 +17,13 @@ if [ -x "$file" -a ! -d "$file" ]
 then
   echo "$file"
 fi
+
+Esc-c 		# Capitalize the next work and move over it
+
+Esc-u 		# Uppercase the next word and move over it
+
+Esc-i 		# Lowercase the next work and move over it
+
+Ctrl-l 		# Clear screen
+
+Esc-. 		# Insert last arg from prev command, repeat to get args from prev commands

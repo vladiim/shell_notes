@@ -24,3 +24,7 @@ kill -TSTP %1
 
 # Terminate & make debugging file
 # Ctrl-\
+
+# find process running with ps (process status)
+# ps -l or ps -f
+# ps -ax
