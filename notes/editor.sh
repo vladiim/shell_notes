@@ -26,3 +26,4 @@ bindkey -v
 	# Ctrl-f
 # transpose prev 2 chars - Ctrl-t
 
+# Esc-return lets you drop to next line without executing

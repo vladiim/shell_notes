@@ -21,3 +21,7 @@ Esc-x where-is backward-char # where is all the backward-char used in bindings?
 
 # read <Enter> F1 produces ^[OP therefore to bind the F1 key to forward word:
 bindkey '\e[OP' forward-word
+
+# KEY MAPS
+
+bindkey -N my-keymap
